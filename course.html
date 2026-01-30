@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BrightPath - Learn Smarter</title>
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/testimonial.css">
+<link rel="stylesheet" href="css/cta.css">
+<link rel="stylesheet" href="css/course.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<meta name="description" content="BrightPath offers expert-led online courses in Web Development, Digital Marketing, and Graphic Design to help you upskill and grow your career.">
+<meta name="keywords" content="BrightPath, online courses, web development, digital marketing, graphic design, learn online, skill development">
+<meta name="author" content="BrightPath">
+<meta name="theme-color" content="#00bfa6">
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  <div class="logo"><a href="index.html">BrightPath</a></div>
+
+  <nav class="nav-links" id="nav-links">
+    <a href="index.html">Home</a>
+  <a href="course.html" class="active">Courses</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Login</a>
+  </nav>
+
+  <div class="menu-toggle" id="menu-toggle">☰</div>
+</header>
+<!-- HERO -->
+<header class="hero small-hero" data-aos="fade-up">
+  <h1>Our Courses</h1>
+  <p>Explore a wide range of courses designed to help you master new skills and advance your career.</p>
+</header>
+
+<!-- COURSES -->
+<section class="courses container">
+  <div class="course-header">
+    <h2>Explore Courses</h2>
+    <div class="course-search">
+      <input type="text" placeholder="Search for courses..." id="courseSearch">
+      <button class="filter-btn">☰</button>
+    </div>
+    <div class="course-filters">
+      <button class="filter active" data-filter="all">All</button>
+      <button class="filter" data-filter="design">Design</button>
+      <button class="filter" data-filter="development">Development</button>
+      <button class="filter" data-filter="business">Business</button>
+    </div>
+  </div>
+
+  <div class="course-grid">
+    <!-- 12 Course Cards -->
+    <div class="course-card" data-category="design">
+      <img src="image/course1.jpg" alt="UX Design">
+      <div class="course-content">
+        <h3>Introduction to UX Design</h3>
+        <p class="instructor">Alex Johnson</p>
+        <p class="rating">⭐ 4.8 (1.2k)</p>
+        <p class="price">$49.99</p>
+      </div>
+    </div>
+
+    <div class="course-card" data-category="development">
+      <img src="image/course2.jpg" alt="Full Stack Web Development">
+      <div class="course-content">
+        <h3>Full-Stack Web Development</h3>
+        <p class="instructor">Maria Garcia</p>
+        <p class="rating">⭐ 4.9 (2.5k)</p>
+        <p class="price">Free</p>
+      </div>
+    </div>
+
+    <div class="course-card" data-category="business">
+      <img src="image/course3.jpg" alt="Digital Marketing">
+      <div class="course-content">
+        <h3>Digital Marketing Masterclass</h3>
+        <p class="instructor">David Smith</p>
+        <p class="rating">⭐ 4.7 (980)</p>
+        <p class="price">$79.99</p>
+      </div>
+    </div>
+
+    <div class="course-card" data-category="business">
+      <img src="image/course4.jpg" alt="Project Management">
+      <div class="course-content">
+        <h3>Project Management Essentials</h3>
+        <p class="instructor">Emily White</p>
+        <p class="rating">⭐ 4.8 (1.5k)</p>
+        <p class="price">$99.99</p>
+      </div>
+    </div>
+
+    <div class="course-card" data-category="design">
+      <img src="image/course5.jpg" alt="Graphic Design">
+      <div class="course-content">
+        <h3>Graphic Design Basics</h3>
+        <p class="instructor">Liam Brown</p>
+        <p class="rating">⭐ 4.6 (850)</p>
+        <p class="price">$59.99</p>
+      </div>
+    </div>
+
+    <div class="course-card" data-category="development">
+      <img src="image/course6.jpg" alt="JavaScript Mastery">
+      <div class="course-content">
+        <h3>JavaScript Mastery</h3>
+        <p class="instructor">Sophia Lee</p>
+        <p class="rating">⭐ 4.9 (3k)</p>
+        <p class="price">$69.99</p>
+      </div>
+    </div>
+
+    <div class="course-card" data-category="business">
+      <img src="image/course7.jpg" alt="Startup Essentials">
+      <div class="course-content">
+        <h3>Startup Essentials</h3>
+        <p class="instructor">James Miller</p>
+        <p class="rating">⭐ 4.7 (1.1k)</p>
+        <p class="price">$89.99</p>
+      </div>
+    </div>
+
+    <div class="course-card" data-category="design">
+      <img src="image/course8.jpg" alt="UI/UX Advanced">
+      <div class="course-content">
+        <h3>UI/UX Advanced</h3>
+        <p class="instructor">Olivia Davis</p>
+        <p class="rating">⭐ 4.8 (1.3k)</p>
+        <p class="price">$99.99</p>
+      </div>
+    </div>
+
+    <div class="course-card" data-category="development">
+      <img src="image/course9.jpg" alt="Python for Everyone">
+      <div class="course-content">
+        <h3>Python for Everyone</h3>
+        <p class="instructor">Ethan Wilson</p>
+        <p class="rating">⭐ 4.9 (2k)</p>
+        <p class="price">Free</p>
+      </div>
+    </div>
+
+    <div class="course-card" data-category="business">
+      <img src="image/course10.jpg" alt="Finance Fundamentals">
+      <div class="course-content">
+        <h3>Finance Fundamentals</h3>
+        <p class="instructor">Charlotte Hall</p>
+        <p class="rating">⭐ 4.7 (900)</p>
+        <p class="price">$79.99</p>
+      </div>
+    </div>
+
+    <div class="course-card" data-category="design">
+      <img src="image/course11.jpg" alt="Illustration Techniques">
+      <div class="course-content">
+        <h3>Illustration Techniques</h3>
+        <p class="instructor">Mason Taylor</p>
+        <p class="rating">⭐ 4.6 (720)</p>
+        <p class="price">$59.99</p>
+      </div>
+    </div>
+
+    <div class="course-card" data-category="development">
+      <img src="image/course12.jpg" alt="React for Beginners">
+      <div class="course-content">
+        <h3>React for Beginners</h3>
+        <p class="instructor">Ava Martinez</p>
+        <p class="rating">⭐ 4.8 (1.8k)</p>
+        <p class="price">$69.99</p>
+      </div>
+    </div>
+
+  
+  <div class="load-more-container">
+    <button class="load-more" id="loadMoreBtn">Load More</button>
+  </div>
+  </div>
+
+</section>
+<!-- WHY CHOOSE US -->
+<section class="container why-us" data-aos="fade-up">
+  <h2>Why Choose BrightPath?</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Industry Experts</h3>
+      <p>Learn directly from professionals with years of hands-on experience.</p>
+    </div>
+    <div class="card">
+      <h3>Flexible Learning</h3>
+      <p>Access courses anytime, anywhere with self-paced modules.</p>
+    </div>
+    <div class="card">
+      <h3>Certificates</h3>
+      <p>Earn recognized certificates to boost your career and resume.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials" data-aos="fade-up">
+  <h2>What Our Learners Say</h2>
+  <p class="testimonial-intro">
+    Hear from learners who’ve grown their skills, advanced their careers, and built new opportunities with BrightPath.
+  </p>
+
+  <div class="testimonial-slider">
+    <div class="slides">
+      <div class="slide"><p>"BrightPath completely changed my learning habits!"</p><h4>— Sarah Khan</h4></div>
+      <div class="slide"><p>"The mentors are so patient and professional."</p><h4>— Ali Raza</h4></div>
+      <div class="slide"><p>"Loved the flexibility of the digital marketing course."</p><h4>— Maria Iqbal</h4></div>
+      <div class="slide"><p>"Easy to follow, practical lessons. Totally worth it."</p><h4>— Ahmed Sheikh</h4></div>
+      <div class="slide"><p>"Best online learning experience I've had so far."</p><h4>— Laiba Noor</h4></div>
+      <div class="slide"><p>"I improved my design skills in just a few weeks!"</p><h4>— Hira Malik</h4></div>
+      <div class="slide"><p>"The courses are detailed yet beginner-friendly."</p><h4>— Zain Ali</h4></div>
+      <div class="slide"><p>"I like the quizzes and assignments after each topic."</p><h4>— Sana Tariq</h4></div>
+      <div class="slide"><p>"Got a job right after completing BrightPath Web Dev!"</p><h4>— Daniyal Arif</h4></div>
+      <div class="slide"><p>"Affordable and high-quality content — rare combo!"</p><h4>— Amna Javed</h4></div>
+      <div class="slide"><p>"The video lessons are super clear and motivating."</p><h4>— Hassan Rafi</h4></div>
+      <div class="slide"><p>"BrightPath helped me build confidence in tech."</p><h4>— Ayesha Farooq</h4></div>
+    </div>
+  </div>
+
+  <div class="dots"></div>
+</section>
+  <!-- CTA -->
+  <section class="cta" data-aos="fade-up">
+    <h2>Ready to Start Your Learning Journey?</h2>
+    <p>Join thousands of learners worldwide who are achieving their goals with BrightPath.</p>
+    <a href="login.html" class="btn">Get Started</a>
+  </section>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <h3>BrightPath</h3>
+        <p>
+          Empowering learners with skills for the future.
+          Education made accessible, practical, and transformative.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p>Email: info@brightpath.com</p>
+        <p>Phone: +92 300 1234567</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 BrightPath. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+  <script src="js/course.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/testimonial.js"></script>
+</body>
+</html>
